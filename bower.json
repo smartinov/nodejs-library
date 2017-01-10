@@ -1,0 +1,20 @@
+{
+  "name": "library",
+  "description": "Library application for libraries",
+  "main": "app.js",
+  "authors": [
+    "Stefan Martinov <stefan.martinov@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "library"
+  ],
+  "homepage": "https://github.com/smartinov/nodejs-library",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
