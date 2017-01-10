@@ -1,0 +1,16 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Stefan Martinov <stefan.martinov@gmail.com>",
+  "license": "ISC",
+  "description": "Library application for libraries",
+  "dependencies": {
+    "express": "^4.14.0",
+    "require.js": "^1.0.0"
+  }
+}
