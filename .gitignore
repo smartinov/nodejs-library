@@ -1,3 +1,7 @@
+# Custom Ignore Patterns
+public/lib
+
+
 # Created by https://www.gitignore.io/api/node,webstorm,bower
 
 ### Node ###
