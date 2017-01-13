@@ -6,7 +6,12 @@ var port = process.env.PORT || 3000;
 
 // Set public folder from root to be the static directory
 app.use(express.static('public'));
-app.use(express.static('src/views'));
+app.set('views', './src/views');
+app.set('view engine', 'jade');
+
+app.get('/', function (req, res) {
+    res.render('index');
+});
 
 app.get('/books', function (req, res) {
     res.send('Hello Books');
