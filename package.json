@@ -11,6 +11,7 @@
   "description": "Library application for libraries",
   "dependencies": {
     "express": "^4.14.0",
+    "jade": "^1.11.0",
     "require.js": "^1.0.0"
   },
   "devDependencies": {
