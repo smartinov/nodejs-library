@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express();
 
-var port = 3000;
+var port = process.env.PORT || 3000;
 
 // Set public folder from root to be the static directory
 app.use(express.static('public'));
