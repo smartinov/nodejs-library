@@ -14,8 +14,11 @@
     "require.js": "^1.0.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
     "jscs": "^3.0.7",
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "jshint-stylish": "^2.2.1",
     "jshint": "^2.9.4"
   }
 }
